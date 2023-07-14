@@ -2,31 +2,15 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import 'normalize.css/normalize.css' // a modern alternative to CSS resets
+import '@/styles/index.scss' // global css
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 
-// import VueI18n from 'vue-i18n'
-
-// Vue.use(VueI18n)
-
-// const messages = {
-//   cn: {
-//     message: {
-//       hello: '你好，世界！'
-//     }
-//   },
-//   en: {
-//     message: {
-//       hello: 'hello world'
-//     }
-//   }
-// }
-
-// const i18n = new VueI18n({
-//   locale: 'cn', // 设置地区
-//   messages // 设置地区信息
-// })
-
-// // 国际化
+// 国际化
 import i18n from './i18n'
+
+Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 
