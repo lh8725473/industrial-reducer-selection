@@ -19,7 +19,7 @@
                 级数
               </div>
               <div class="vaule">
-                2P
+                2P2
               </div>
             </div>
           </div>
